@@ -14,6 +14,7 @@ export default function Resume() {
           <li>React.js / Next.js</li>
           <li>TypeScript / JavaScript</li>
           <li>Tailwind CSS</li>
+          <li>.NET , C# and SQL Server</li>
           <li>Node.js / Express</li>
           <li>PostgreSQL / Prisma</li>
           <li>Git / GitHub / Vercel</li>
@@ -27,7 +28,7 @@ export default function Resume() {
           target="_blank"
           className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition text-sm"
         >
-          Download PDF
+          Click to download
         </a>
       </div>
     </section>
