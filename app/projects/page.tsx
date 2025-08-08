@@ -38,8 +38,8 @@ export default function Projects() {
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
           <div key={index} className="border rounded-lg p-5 shadow hover:shadow-md transition">
-            <h2 className="text-xl font-bold text-gray-800">{project.title}</h2>
-            <p className="text-sm text-white-600 mt-2">{project.description}</p>
+            <h2 className="text-xl font-bold text-white-700 mt-2">{project.title}</h2>
+            <p className="text-sm text-white-700 mt-2">{project.description}</p>
             <div className="flex flex-wrap gap-2 mt-3 text-sm text-gray-500">
               {project.tech.map((tech, i) => (
                 <span
