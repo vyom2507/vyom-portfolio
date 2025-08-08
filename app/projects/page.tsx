@@ -32,19 +32,19 @@ export default function Projects() {
   ]
 
   return (
-    <section className="max-w-5xl mx-auto py-12 px-4 space-y-10">
-      <h1 className="text-3xl font-semibold text-gray-900">Projects</h1>
+    <section className="max-w-5xl mx-auto py-12 px-4 space-y-10"><h1 className="text-3xl font-semibold text-sky-400">Projects</h1>
+
 
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((project, index) => (
-          <div key={index} className="border rounded-lg p-5 shadow hover:shadow-md transition">
-            <h2 className="text-xl font-bold text-white-700 mt-2">{project.title}</h2>
-            <p className="text-sm text-white-700 mt-2">{project.description}</p>
-            <div className="flex flex-wrap gap-2 mt-3 text-sm text-gray-500">
+          <div key={index} className="border border-gray-700 rounded-lg p-5 bg-gray-900 shadow hover:shadow-lg transition">
+            <h2 className="text-xl font-semibold text-blue-300 mt-2">{project.title}</h2>
+            <p className="text-sm text-gray-300 mt-2">{project.description}</p>
+            <div className="flex flex-wrap gap-2 mt-3 text-sm text-gray-400">
               {project.tech.map((tech, i) => (
                 <span
                   key={i}
-                  className="bg-gray-100 border px-2 py-0.5 rounded-full"
+                  className="bg-gray-800 border border-gray-600 px-2 py-0.5 rounded-full"
                 >
                   {tech}
                 </span>
@@ -53,7 +53,7 @@ export default function Projects() {
             <a
               href={project.link}
               target="_blank"
-              className="inline-block mt-4 text-blue-600 hover:underline text-sm"
+              className="inline-block mt-4 text-blue-400 hover:underline text-sm"
             >
               View on GitHub →
             </a>
